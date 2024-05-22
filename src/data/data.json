@@ -1,0 +1,55 @@
+{
+    "courses": [
+        {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basic of Piano Guitar from Here",
+        "price": 100,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg"
+        },
+
+        {
+            "id": 2,
+            "title": "Music Videos",
+            "slug": "music-videos",
+            "description": "Learn the basic of music from Here",
+            "price": 80,
+            "instructor": "Bibek",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Song Writing",
+            "slug": "song-writing",
+            "description": "Learn the basic of Writing Song from Here",
+            "price": 120,
+            "instructor": "Sanjog Dangal",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Content Writer",
+            "slug": "content-writer",
+            "description": "Learn the basic of Writing Song Content",
+            "price": 100,
+            "instructor": "Nishant chapagai",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Music Creator",
+            "slug": "music-creator",
+            "description": "Learn the basic of Hoe to create music from Here",
+            "price": 100,
+            "instructor": "Ritesh KC",
+            "isFeatured": true,
+            "image": "/courses/guitar.jpg"
+        }
+    ]
+}
