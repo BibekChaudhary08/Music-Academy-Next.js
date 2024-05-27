@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import courseData from "@/data/data.json"
 import { BackgroundGradient } from '../ui/background-gradient'
@@ -32,7 +33,7 @@ const FeaturedCourses = () => {
               <h3 className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                 {course.title}
               </h3>
-              <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+              <p className="text-base text-black mt-4 mb-2 dark:text-neutral-200">
                 {course.description}
               </p>
               <div className="flex justify-center mt-4">

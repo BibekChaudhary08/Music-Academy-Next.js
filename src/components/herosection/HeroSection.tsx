@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import React from 'react'
 import { Spotlight } from '../ui/Spotlight'
@@ -20,7 +21,7 @@ const HeroSection = () => {
             <Button
              borderRadius="1.75rem"
              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800">
-              <Link href={"/courses"}>
+              <Link href={"/allcourses"}>
                   Explore Courses
               </Link>
             </Button>
